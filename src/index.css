@@ -1,0 +1,10 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    max-width: 100vw;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
