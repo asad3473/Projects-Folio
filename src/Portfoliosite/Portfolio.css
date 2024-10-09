@@ -253,7 +253,7 @@ body{
 }
 
 .shadow:hover {
-    background: linear-gradient(15deg, rgba(252, 217, 60, 0.922), rgba(255, 255, 255, 0.26));
+    background: linear-gradient(15deg, rgba(248, 209, 33, 0.548), rgba(255, 255, 255, 0.26));
     transition: all ease-in-out 1s;
 }
 
@@ -262,6 +262,11 @@ body{
     overflow: hidden;
 
 }
+.triangle:hover p{
+    transition:ease-in-out 0.5s;
+    color: white;
+    
+}   
 
 .triangle::before {
     content: '';
