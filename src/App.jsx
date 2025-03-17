@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import { lazy, Suspense } from 'react';
 import '../src/Portfoliosite/Portfolio.css';
 import Loader from './Portfoliosite/Loader';
 // Lazy loading the components
